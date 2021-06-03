@@ -25,7 +25,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundOpacity: ['even']
+    },
   },
   plugins: [
     require('@tailwindcss/typography')
